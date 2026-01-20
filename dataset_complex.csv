@@ -1,0 +1,36 @@
+LEXICON = {
+    # --- APARAT URINAR  ---
+    "urina":      {"cat": "urinar", "scor": 1},
+    "usturime":   {"cat": "urinar", "scor": 2},
+    "rinichi":    {"cat": "urinar", "scor": 2},
+    "vezica":     {"cat": "urinar", "scor": 1},
+    "sange":      {"cat": "urinar", "scor": 3},  # Scor 3 = Sever
+
+    # --- APARAT RESPIRATOR  ---
+    "tuse":       {"cat": "respirator", "scor": 1},
+    "aer":        {"cat": "respirator", "scor": 2},
+    "sufoc":      {"cat": "respirator", "scor": 3}, # Scor 3 = Urgenta
+    "lesin":      {"cat": "respirator", "scor": 3},
+    "respir":     {"cat": "respirator", "scor": 2},
+    "piept":      {"cat": "respirator", "scor": 2},
+    "plamani":    {"cat": "respirator", "scor": 2},
+
+    # --- APARAT DIGESTIV  ---
+    "stomac":     {"cat": "digestiv", "scor": 1},
+    "greata":     {"cat": "digestiv", "scor": 1},
+    "varsaturi":  {"cat": "digestiv", "scor": 2},
+    "burta":      {"cat": "digestiv", "scor": 1},
+    "ficat":      {"cat": "digestiv", "scor": 2},
+
+    # --- LIMBAJ & EMOTII  ---
+    "prost":      {"cat": "limbaj_inadecvat", "scor": -1},
+    "idiot":      {"cat": "limbaj_inadecvat", "scor": -1},
+    "bataie":     {"cat": "limbaj_inadecvat", "scor": -1},
+    "multumesc":  {"cat": "emotie_pozitiva", "scor": 0},
+    "frica":      {"cat": "emotie_negativa", "scor": 0},
+
+    # --- INDICATOR DE SEVERITATE  ---
+    "tare":       {"cat": "indicator_de_severitate", "scor": 2},
+    "insuportabil":{"cat": "indicator_de_severitate", "scor": 3},
+    "urgent":     {"cat": "indicator_de_severitate", "scor": 3}
+}
